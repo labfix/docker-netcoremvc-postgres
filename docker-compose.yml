@@ -1,0 +1,17 @@
+version: '3'
+services:
+  netcoremvcpostgres:
+    container_name: netcoremvcpostgres
+    build: .
+    ports:
+      - "5000:5000"
+    restart: always
+    command: "dotnet LabFix.NetcoreMVC.dll"
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - netcoremvc
+
+networks:
+    netcoremvc:
+      driver: bridge

@@ -1,0 +1,38 @@
+@model LabFix.NetcoreMVC.Models.Customers
+ 
+ <!-- Helper Tags -->
+<form asp-controller="Manage" asp-action="Create"  method="post" class="form-horizontal">
+    <h4>Create a new Person.</h4>
+    <hr />
+    <!--div asp-validation-summary="All" class="text-danger"></div -->
+    <div class="form-group">
+        <!-- label asp-for="Companyname" class="col-md-2 control-label"></label-->
+        <div class="col-md-10">
+            <input asp-for="Companyname" class="form-control" />
+            <!-- span asp-validation-for="Companyname" class="text-danger"></span -->
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="Contactname" class="form-control" />
+            <!-- span asp-validation-for="Contactname" class="text-danger"></span -->
+        </div>
+    </div>
+     <div class="form-group">
+        <label asp-for="Phone" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="Contacttitle" class="form-control" />
+            <!-- span asp-validation-for="Contacttitle" class="text-danger"></span-->
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-default">Create</button>
+        </div>
+    </div>
+</form>
+ 
+<div>
+    @Html.ActionLink("Back to List", "Customer")
+</div>

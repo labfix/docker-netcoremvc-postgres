@@ -1,0 +1,10 @@
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/bin/Debug/netcoreapp2.0/LabFix.NetcoreMVC.deps.json
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/bin/Debug/netcoreapp2.0/LabFix.NetcoreMVC.runtimeconfig.json
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/bin/Debug/netcoreapp2.0/LabFix.NetcoreMVC.runtimeconfig.dev.json
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/bin/Debug/netcoreapp2.0/LabFix.NetcoreMVC.dll
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/bin/Debug/netcoreapp2.0/LabFix.NetcoreMVC.pdb
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/obj/Debug/netcoreapp2.0/LabFix.NetcoreMVC.csproj.CoreCompileInputs.cache
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/obj/Debug/netcoreapp2.0/LabFix.NetcoreMVC.AssemblyInfoInputs.cache
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/obj/Debug/netcoreapp2.0/LabFix.NetcoreMVC.AssemblyInfo.cs
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/obj/Debug/netcoreapp2.0/LabFix.NetcoreMVC.dll
+/home/jiwgle/NetcoreProject/LabFix.NetcoreMVC/LabFix.NetcoreMVC/obj/Debug/netcoreapp2.0/LabFix.NetcoreMVC.pdb

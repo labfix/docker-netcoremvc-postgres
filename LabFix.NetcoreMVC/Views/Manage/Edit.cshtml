@@ -1,0 +1,51 @@
+@model LabFix.NetcoreMVC.Models.Customers
+<h2>Edit</h2>
+ 
+ <!-- Normal Razor Tags Helper -->
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+ 
+    <fieldset>
+        <legend>Person</legend>
+ 
+        @Html.HiddenFor(model => model.Customerid)
+ 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Companyname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Companyname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Contactname)
+            //@Html.ValidationMessageFor(model => model.Contactname)
+        </div>
+ 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Country)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Country)
+            //@Html.ValidationMessageFor(model => model.Country)
+        </div>
+ 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Postalcode)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Postalcode)
+            //@Html.ValidationMessageFor(model => model.Postalcode)
+        </div>
+        <br/>
+        <div>
+            <p>
+                <input type="submit"  class="btn btn-default" value="Save" />
+            </p>
+        </div>
+    </fieldset>
+}
+ 
+<div>
+    @Html.ActionLink("Back to List", "Customer")
+</div>
